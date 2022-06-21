@@ -1,0 +1,404 @@
+[
+    {
+        "type": "TRN",
+        "id": 292,
+        "frm": false,
+        "scene": 19
+    },
+    {
+        "type": "DLG",
+        "id": 293,
+        "scene": 19,
+        "frm": false,
+        "characters": [
+            "Momia",
+            "Jugador"
+        ],
+        "lines": [
+            {
+                "character": "Momia",
+                "text": "Hola"
+            },
+            {
+                "character": "Jugador",
+                "text": "Estooo… ¡Hola!"
+            },
+            {
+                "character": "Momia",
+                "text": "¿Sorprendido?"
+            },
+            {
+                "character": "Jugador",
+                "text": "¡Un poco!"
+            }
+        ]
+    },
+    {
+        "type": "PRB",
+        "id": 294,
+        "scene": 19,
+        "frm": false,
+        "char1": "Momia",
+        "question": "¿No te habló la Faraona de mi “aspecto”?",
+        "options": [
+            {
+                "text": "¡Pues la verdad, no!",
+                "goto": 295
+            },
+            {
+                "text": "¡Si lo hizo, no me acuerdo!",
+                "goto": 295
+            },
+            {
+                "text": "¡Hizo una mención indirecta, pero no entendí a qué se refería!",
+                "goto": 295
+            },
+            {
+                "text": "¡Es posible!",
+                "goto": 295
+            }
+        ],
+        "char2": "Jugador"
+    },
+    {
+        "type": "DLG",
+        "id": 295,
+        "scene": 19,
+        "frm": false,
+        "characters": [
+            "Momia",
+            "Jugador"
+        ],
+        "lines": [
+            {
+                "character": "Momia",
+                "text": "¡La Faraona es muy dada a la ironía!"
+            },
+            {
+                "character": "Jugador",
+                "text": "Sí, ya la voy conociendo"
+            },
+            {
+                "character": "Momia",
+                "text": "Bueno, no te preocupes… ¡Te irás acostumbrando!"
+            },
+            {
+                "character": "Jugador",
+                "text": "¡Sí, claro!"
+            },
+            {
+                "character": "Momia",
+                "text": "Hablando de la Faraona, me comentó que tenías interés en conocer nuestra cultura"
+            }
+        ]
+    },
+    {
+        "type": "PRB",
+        "id": 296,
+        "scene": 19,
+        "frm": false,
+        "char1": "Momia",
+        "question": "Y qué… ¡Podrías echarnos una mano como una forma de integrarte en la vida de la pirámide!",
+        "options": [
+            {
+                "text": "¡No recuerdo haber dicho nada parecido!",
+                "goto": 297
+            },
+            {
+                "text": "¡Así es!",
+                "goto": 298
+            },
+            {
+                "text": "¡Creí que estábamos bromeando!",
+                "goto": 299
+            },
+            {
+                "text": "Lo intento… Y luego… según vea… me lo vuelvo a plantear. ¿Vale?",
+                "goto": 300
+            }
+        ],
+        "char2": "Jugador"
+    },
+    {
+        "type": "RSP",
+        "id": 297,
+        "scene": 19,
+        "frm": false,
+        "characters": [
+            "Momia"
+        ],
+        "lines": [
+            {
+                "character": "Momia",
+                "text": "¡Deberías ejercitar un poco más tu memoria! ¡Amnesia a tu edad! ¡Qué barbaridad!"
+            }
+        ],
+        "goto": 296
+    },
+    {
+        "type": "RSP",
+        "id": 298,
+        "scene": 19,
+        "frm": false,
+        "characters": [
+            "Momia"
+        ],
+        "lines": [
+            {
+                "character": "Momia",
+                "text": "¡Qué bien! Ya sabes que estoy dirigiendo el proyecto de la modernización de la biblioteca para convertirla en un aula tecnológica."
+            }
+        ],
+        "goto": 301
+    },
+    {
+        "type": "RSP",
+        "id": 299,
+        "scene": 19,
+        "frm": false,
+        "characters": [
+            "Momia"
+        ],
+        "lines": [
+            {
+                "character": "Momia",
+                "text": "¿No distingues una broma de una propuesta formal? ¡Estos aprendices ya no son como antes!"
+            }
+        ],
+        "goto": 296
+    },
+    {
+        "type": "RSP",
+        "id": 300,
+        "scene": 19,
+        "frm": false,
+        "characters": [
+            "Momia"
+        ],
+        "lines": [
+            {
+                "character": "Momia",
+                "text": "¡Qué poca seguridad! ¿Cuándo crecerás?"
+            }
+        ],
+        "goto": 296
+    },
+    {
+        "type": "DLG",
+        "id": 301,
+        "scene": 19,
+        "frm": false,
+        "characters": [
+            "Jugador"
+        ],
+        "lines": [
+            {
+                "character": "Jugador",
+                "text": "¡Algo me había adelantado la Faraona!"
+            }
+        ]
+    },
+    {
+        "type": "PRB",
+        "id": 302,
+        "scene": 19,
+        "frm": false,
+        "char1": "Momia",
+        "question": "¿Qué tal se te dan los números?",
+        "options": [
+            {
+                "text": "¡Sinceramente, no muy bien! ",
+                "goto": 303
+            },
+            {
+                "text": "¡Bastante bien, aunque hace tiempo que no practico!",
+                "goto": 303
+            },
+            {
+                "text": "¡Me encantan!",
+                "goto": 303
+            },
+            {
+                "text": "¡No sé muy bien que decir, ya veremos!",
+                "goto": 303
+            }
+        ],
+        "char2": "Jugador"
+    },
+    {
+        "type": "DLG",
+        "id": 303,
+        "scene": 19,
+        "frm": false,
+        "characters": [
+            "Momia",
+            "Jugador"
+        ],
+        "lines": [
+            {
+                "character": "Momia",
+                "text": "¡Bueno, vamos a ver... empezaremos por algo elemental y divertido! ¡Sólo para familiarizarte con el cálculo!"
+            },
+            {
+                "character": "Jugador",
+                "text": "Sí, ¡Mejor!"
+            }
+        ]
+    },
+    {
+        "type": "PRB",
+        "id": 304,
+        "scene": 19,
+        "frm": false,
+        "char1": "",
+        "question": "¿Quieres repetir el diálogo?",
+        "options": [
+            {
+                "text": "Sí",
+                "goto": 293
+            },
+            {
+                "text": "No",
+                "goto": 305
+            }
+        ],
+        "char2": ""
+    },
+    {
+        "type": "DLG",
+        "id": 305,
+        "scene": 19,
+        "frm": false,
+        "characters": [],
+        "lines": [
+            {
+                "character": "",
+                "text": "Bienvenido al reto de los acertijos con números. Este reto consta de 3 pruebas. Puedes llegar a conseguir 12 puntos. No hay penalizaciones."
+            }
+        ]
+    },
+    {
+        "type": "PRB",
+        "id": 306,
+        "scene": 19,
+        "frm": false,
+        "char1": "",
+        "question": "Prueba 1. Tienes $t para fíjate en este número: 866.442.460. ¿Cómo puedes conseguir que multiplicando dos números den este resultado?\n",
+        "options": [
+            {
+                "text": "433.221.230 • 2",
+                "goto": 307
+            },
+            {
+                "text": "866.442.460 •1",
+                "goto": 307
+            },
+            {
+                "text": "86.644.246 •10",
+                "goto": 307
+            },
+            {
+                "text": "Todas las respuestas anteriores son correctas.",
+                "goto": 307
+            }
+        ],
+        "char2": ""
+    },
+    {
+        "type": "RSP",
+        "id": 307,
+        "scene": 19,
+        "frm": false,
+        "characters": [],
+        "lines": [
+            {
+                "character": "",
+                "text": "¡Has acertado!"
+            }
+        ],
+        "goto": 308
+    },
+    {
+        "type": "DLG",
+        "id": 308,
+        "scene": 19,
+        "frm": false,
+        "characters": [
+            "Momia",
+            "Jugador"
+        ],
+        "lines": [
+            {
+                "character": "Momia",
+                "text": "¡Ves cómo era facilonga!"
+            },
+            {
+                "character": "Jugador",
+                "text": "¡Creo que no me puedo quejar!"
+            },
+            {
+                "character": "Momia",
+                "text": "¡La siguiente es divertida!"
+            },
+            {
+                "character": "Jugador",
+                "text": "¡Ojalá!"
+            }
+        ]
+    },
+    {
+        "type": "PRB",
+        "id": 309,
+        "scene": 19,
+        "frm": false,
+        "char1": "",
+        "question": "Prueba 2. Tienes $t para leer este texto. \"La policía está vigilando de cerca una guarida de una banda de ladrones, los cuales han dispuesto algún tipo de contraseña para poder entrar. Observan como uno de ellos llega a la puerta y llama. Desde el interior se dice 8 y la persona contesta 4, respuesta ante la cual la puerta se abre. Llega otro y le preguntan por el número 14, a lo que contesta 7 y también pasa. Uno de los agentes decide intentar infiltrarse y se acerca a la puerta: desde el interior le preguntan por el número 6 ¿Qué responde?",
+        "options": [
+            {
+                "text": "2",
+                "goto": 310
+            },
+            {
+                "text": "3",
+                "goto": 310
+            },
+            {
+                "text": "4",
+                "goto": 311
+            },
+            {
+                "text": "5",
+                "goto": 310
+            }
+        ],
+        "char2": ""
+    },
+    {
+        "type": "RSP",
+        "id": 310,
+        "scene": 19,
+        "frm": false,
+        "characters": [],
+        "lines": [
+            {
+                "character": "",
+                "text": "¡Un error lo tiene cualquiera!"
+            }
+        ],
+        "goto": 309
+    },
+    {
+        "type": "RSP",
+        "id": 311,
+        "scene": 19,
+        "frm": false,
+        "characters": [],
+        "lines": [
+            {
+                "character": "",
+                "text": "¡Has acertado!"
+            }
+        ],
+        "goto": 292
+    }
+]
